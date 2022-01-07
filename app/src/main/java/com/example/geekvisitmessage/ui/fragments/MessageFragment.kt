@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.example.geekvisitmessage.R
 import com.example.geekvisitmessage.databinding.FragmentMessageBinding
-import com.example.geekvisitmessage.ui.adapter.ChatAdapter
 import com.example.geekvisitmessage.ui.adapter.ChatModel
 
 class MessageFragment() : Fragment() {

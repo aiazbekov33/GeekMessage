@@ -9,14 +9,6 @@
     android:layout_marginEnd="8dp"
     android:layout_marginStart="8dp">
 
-    <ImageView
-        android:id="@+id/send_people"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@drawable/ic_account_circle"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
-
     <FrameLayout
         android:id="@+id/message_root"
         android:layout_width="wrap_content"
@@ -31,7 +23,7 @@
             android:layout_height="256dp"
             android:adjustViewBounds="true"
             android:contentDescription="todo"
-            android:padding="4dp"
+            android:padding="15dp"
             android:scaleType="fitXY"
             android:src="@drawable/ic_image"
             app:srcCompat="@drawable/ic_image"
@@ -43,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="15dp"
             android:textSize="12sp"
             android:textColor="@android:color/black"
             android:layout_gravity="start|bottom"
@@ -54,7 +46,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:layout_marginStart="160dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="4dp"
             android:textSize="12sp"
             android:textColor="@android:color/black"
